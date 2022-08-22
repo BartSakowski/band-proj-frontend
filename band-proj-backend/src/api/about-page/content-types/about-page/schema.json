@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_page_content": {
+      "type": "dynamiczone",
+      "components": [
+        "site-components.accordion",
+        "site-components.alternating-content",
+        "site-components.cta",
+        "site-components.two-column-card"
+      ]
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site-components.hero"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_site_components_two_column_cards",
+  "info": {
+    "displayName": "two_column_card",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "left_column": {
+      "displayName": "column",
+      "type": "component",
+      "repeatable": false,
+      "component": "inner-components.column"
+    },
+    "right_column": {
+      "type": "component",
+      "repeatable": false,
+      "component": "inner-components.column"
+    }
+  }
+}

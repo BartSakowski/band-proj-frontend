@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_site_components_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "exclamation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtext": {
+      "type": "string"
+    }
+  }
+}

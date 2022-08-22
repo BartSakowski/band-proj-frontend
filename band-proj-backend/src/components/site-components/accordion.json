@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_site_components_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Accordion_Bellow": {
+      "type": "component",
+      "repeatable": true,
+      "component": "inner-components.bellow"
+    }
+  }
+}

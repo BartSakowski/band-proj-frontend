@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_inner_components_columns",
+  "info": {
+    "displayName": "column",
+    "icon": "grip-lines-vertical"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.ctaComponent {
+  color: #fff;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

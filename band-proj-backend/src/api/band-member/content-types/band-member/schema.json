@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "band_members",
+  "info": {
+    "singularName": "band-member",
+    "pluralName": "band-members",
+    "displayName": "Band Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "instrument": {
+      "type": "enumeration",
+      "enum": [
+        "Guitar",
+        "Bass",
+        "Drums"
+      ]
+    },
+    "gears": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gear.gear",
+      "mappedBy": "band_member"
+    },
+    "profile_picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

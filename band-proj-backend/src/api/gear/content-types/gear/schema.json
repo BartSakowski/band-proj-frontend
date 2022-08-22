@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gears",
+  "info": {
+    "singularName": "gear",
+    "pluralName": "gears",
+    "displayName": "Gear",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Drums",
+        "Pedals",
+        "Amps",
+        "Guitars"
+      ]
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "band_member": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::band-member.band-member",
+      "inversedBy": "gears"
+    }
+  }
+}

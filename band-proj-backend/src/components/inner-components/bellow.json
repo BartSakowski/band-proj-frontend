@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_inner_components_bellows",
+  "info": {
+    "displayName": "Bellow",
+    "icon": "dumbbell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

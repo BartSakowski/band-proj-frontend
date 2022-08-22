@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_site_components_alternating_contents",
+  "info": {
+    "displayName": "Alternating Content",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "component_title": {
+      "type": "string"
+    },
+    "component_text": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_on_left": {
+      "type": "boolean"
+    }
+  }
+}
